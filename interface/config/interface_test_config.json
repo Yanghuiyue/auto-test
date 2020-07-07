@@ -1,0 +1,10 @@
+{
+    "description": "Validate Backend API CAAS /v1/components  Response",
+    "apiHostUrl": "http://service-caas.{env}online.lenovo.com",
+    "apiRouteUrl": "/v1/components",
+    "method": "GET",
+    "expectResponse": {
+        "result":{
+        }
+    }
+  }

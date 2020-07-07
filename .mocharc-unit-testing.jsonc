@@ -1,0 +1,28 @@
+{
+  "reporter": "mochawesome", // reporter library
+  /**
+  Flag	Type	Default	Description
+  -f, --reportFilename	string		Filename of saved report
+  -o, --reportDir	string	[cwd]/mochawesome-report	Path to save report
+  -t, --reportTitle	string	mochawesome	Report title
+  -p, --reportPageTitle	string	mochawesome-report	Browser title
+  -i, --inline	boolean	false	Inline report assets (scripts, styles)
+  --cdn	boolean	false	Load report assets via CDN (unpkg.com)
+  --assetsDir	string	[cwd]/mochawesome-report/assets	Path to save report assets (js/css)
+  --charts	boolean	true	Display Suite charts
+  --code	boolean	true	Display test code
+  --autoOpen	boolean	false	Automatically open the report
+  --overwrite	boolean	true	Overwrite existing report files. See notes.
+  --timestamp, --ts	string		Append timestamp in specified format to report filename. See notes.
+  --showPassed	boolean	true	Set initial state of "Show Passed" filter
+  --showFailed	boolean	true	Set initial state of "Show Failed" filter
+  --showPending	boolean	true	Set initial state of "Show Pending" filter
+  --showSkipped	boolean	false	Set initial state of "Show Skipped" filter
+  --showHooks	string	failed	Set the default display mode for hooks
+  --saveJson	boolean	false	Should report data be saved to JSON file
+  --saveHtml	boolean	true	Should report be saved to HTML file
+  --dev	boolean	false	Enable dev mode (requires local webpack dev server)
+  -h, --help			Show CLI help
+  */
+  "reporter-options": "reportTitle=Unit Test Report,reportFilename=unittest,reportPageTitle=Unit Test Report Page,reportDir=report/Unit-testing,inline=false,cdn=true,autoOpen=true,overwrite=true,dev=false"
+}

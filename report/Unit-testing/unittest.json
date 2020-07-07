@@ -1,0 +1,129 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-07-06T10:15:47.860Z",
+    "end": "2020-07-06T10:15:47.870Z",
+    "duration": 10,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "eb7b9f64-0a52-4215-b848-c5d27402e421",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "ebfe6ecf-200c-4b16-bfd0-6296cc3537eb",
+          "title": "ES Module Test",
+          "fullFile": "D:\\Codes\\Unitest\\test\\esmodule.test.js",
+          "file": "\\test\\esmodule.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "99946b83-51fe-4b8a-9740-7840ef7ade09",
+              "title": "test Test",
+              "fullFile": "D:\\Codes\\Unitest\\test\\esmodule.test.js",
+              "file": "\\test\\esmodule.test.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "valid es module work",
+                  "fullTitle": "ES Module Test test Test valid es module work",
+                  "timedOut": false,
+                  "duration": 1,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "(0, _chai.expect)((0, _esmodule.esModuleTest)()).to.be.a('string');",
+                  "err": {},
+                  "uuid": "291c3bab-2487-46ed-a663-a465521b4e81",
+                  "parentUUID": "99946b83-51fe-4b8a-9740-7840ef7ade09",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "291c3bab-2487-46ed-a663-a465521b4e81"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 1,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "8.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "unittest",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": {
+        "reportTitle": "Unit Test Report",
+        "reportFilename": "unittest",
+        "reportPageTitle": "Unit Test Report Page",
+        "reportDir": "report/Unit-testing",
+        "inline": "false",
+        "cdn": "true",
+        "autoOpen": "true",
+        "overwrite": "true",
+        "dev": "false"
+      },
+      "version": "5.1.0"
+    }
+  }
+}
