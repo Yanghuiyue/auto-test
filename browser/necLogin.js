@@ -7,11 +7,11 @@ describe(`nec uat admin test`, function(){
   it(`1 login test`,function(){
     nightmare
     .goto('https://admin.nec.lenovouat.com/login.html')
-    .type('#userid', 'yanghy12') // your itcode
-    .type('#password','3333@8') // your password
+    .type('#userid', '****') // your itcode
+    .type('#password','***') // your password
     .click('#login')
     .wait('#sideList')
-    .evaluate(() =>{document.querySelectorAll('#sideList').length} )
+    .evaluate(() => document.querySelectorAll('#sideList').length )
     .end()
     .then(text => {
         expect(text).to.greaterThan(0);
